@@ -8,7 +8,7 @@
 		{ "hook": "static:app.load", "method": "init" },
 		{ "hook": "action:notification.pushed", "method": "pushNotification" },
 		{ "hook": "action:post.save", "method": "postSave"},
-        { "hook": "action:user.saveSettings", "method": "saveUserSettings"},
+        { "hook": "action:user.saveSettings", "method": "saveUserSetting"},
 		{ "hook": "filter:user.profileMenu", "method": "addProfileItem" },
 		{ "hook": "filter:admin.header.build", "method": "addNavigation", "callbacked": true },
 		{ "hook": "filter:user.customSettings", "method": "addUserSettings"},
