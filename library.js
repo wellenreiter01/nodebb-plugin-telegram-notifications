@@ -356,7 +356,8 @@ Telegram.postSave = function(post) {
         var roomId= -plugin.config['roomId'];
 		var topicsOnly = plugin.config['topicsOnly'] || 'off';
 		if (topicsOnly === 'off' || (topicsOnly === 'on' && post.isMain)) {
-			var content = post.content;
+			var content = nconf.get('url')+'topic/'+post-tid;
+        
            
 
 			async.parallel({
@@ -376,7 +377,6 @@ Telegram.postSave = function(post) {
 					var maxQuoteLength = plugin.config['maxLength'] || 1024;
 					if (content.length > maxQuoteLength) { 
                         content = content.substring(0, maxQuoteLength) + '...\n';
-                        content += nconf.get('url')+'topic/'+post-tid;
                     }
 
 					// Ensure absolute thumbnail URL:

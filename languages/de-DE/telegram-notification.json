@@ -15,5 +15,9 @@
 	"topics-only": "Benachrichtigung nur bei neuen Topics",
 	"message": "Zusatztext",
 	"message-sidenote": "leeres Feld unterdrückt Zusatztext",
-	"message-help": "Ein Zusatztexts, der vor dem Text der Benachrichtigung angezeigt wird (maximal 512 Zeichen)."
+	"message-help": "Ein Zusatztexts, der vor dem Text der Benachrichtigung angezeigt wird (maximal 512 Zeichen).",
+    "To receive notifications join Telegram room": "Um Meldungen und Ankündigungen zu erhalten gehen sie in den Raum",
+	"No_room_configured":" Es ist kein Telegram-chatraun in den Systemeinstellungne konfiguriert",
+	"Telegram :error getting t_id for:":"Telegram :Fehler konnte die Telegram ID Nucht finden für Benutzer:",
+	"Error saving Telegram id": "Fehler, konnte Telegram id nicht speichern !!"
 }

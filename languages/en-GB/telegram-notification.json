@@ -15,5 +15,9 @@
 	"topics-only": "Notify for new topics only",
 	"message": "Message",
 	"message-sidenote": "Leave blank to disable",
-	"message-help": "Set a custom message to be placed before the embedded content (up to 512 characters)."
+	"message-help": "Set a custom message to be placed before the embedded content (up to 512 characters).",
+	"To receive notifications join Telegram room": "To receive notifications join Telegram room",
+	"No_room_configured":" no telegram chat room configured in system settings",
+	"Telegram :error getting t_id for:":"Telegram :error getting Telegram id for:",
+	"Error saving Telegram id": "Error saving Telegram id !!"
 }
